@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-}
+} 
 
 .navbar {
     width: 100%;
@@ -291,9 +291,9 @@
     display: inline-block;
     overflow: hidden;
     position: relative;
-    box-shadow: 5px 5px 15px #000000,
-        2px -5px 5px inset #000000,
-        -3px -5px 10px #000000;
+    box-shadow: 5px 5px 15px #5a5a5a,
+        2px -5px 5px inset #5f5d5d,
+        -3px -5px 10px #4b4a4a;
     border-radius: 5px;
     object-fit: cover;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -351,11 +351,9 @@
 /* ---------------------News Letter------------------ */
 .newsletter {
     width: 90%;
-    height: 450px;
-    background: #BEBABA;
+    height: 450px; 
     display: flex;
-    justify-content: center;
-    border: 2px solid #000;
+    justify-content: center; 
     margin: 10px auto;
     padding: 20px;
     border-radius: 20px;
@@ -421,7 +419,7 @@
     width: 100%;
     height: 100%;
     border: 2px solid #000;
-    background: #0e0b0a;
+    background: #9E9C9C;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -430,7 +428,7 @@
 }
 
 .ftr a {
-    color: #888282;
+    color: #000;
 }
 
 .up-ftr {
